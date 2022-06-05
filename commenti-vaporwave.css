@@ -1,0 +1,58 @@
+/*
+
+When installing the skin please remember to substitute the number in the user ID with the one of the person you want to highligh!
+In every instance! (there are quite a few!!)
+the user id is this part here: .user-58837 (which is my id btw)
+The ids of every user can be found in their profile page!
+*/
+.comment.user-58837 blockquote a, .comment.user-58837 .heading a, .comment.user-58837 {
+  /*
+  Change this to change the color of the text
+  */
+  color: #fff6e5 !important;
+}
+
+.comment.user-58837 {
+  /* The following line is the background url! you can change it!*/
+  background: url(https://64.media.tumblr.com/5437966a717ebdcbc159761064287aed/6d0326ff70dc2b46-9a/s640x960/af4d782325814df4b7d1bd2c7ec1625447c80d05.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 110%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px #23fffc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.comment.user-58837 .heading {
+  background: none;
+  padding: 22px 20px 4px 15%;
+}
+.comment.user-58837 .heading a, .comment.user-58837 .heading a:link, .comment.user-58837 .heading a:visited, .comment.user-58837 .heading a:hover {
+  /*The next few lines change the nickname of the user
+  You can change the the font, the uppercase and remove the shadow (or change the color of the shadow as well!)*/
+  font-family: monospace;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px white;
+  text-decoration: none;
+  border-bottom: none;
+}
+.comment.user-58837 .heading .datetime {
+  font-family: sans-serif;
+  font-size: 70%;
+}
+.comment.user-58837 .icon {
+  margin: -30px 0 0 -3%;
+  border-radius: 50%;
+  border-bottom: none;
+}
+.comment.user-58837 blockquote {
+  border-radius: 5px;
+  margin: 1em 1em 1em 5em;
+  /* This is the background of the text itself. I used a transparent color
+  to allow easier reading on busy backgrounds but you can remove it.
+  If you remove it you might want to remove the box shadow and border-radius as well */
+  background-color: rgba(198, 15, 149, 0.6);
+  box-shadow: 0px 0px 5px #c60f95;
+}
